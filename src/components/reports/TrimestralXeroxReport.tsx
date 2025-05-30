@@ -10,7 +10,7 @@ export const TrimestralXeroxReport = () => {
     <div className="space-y-6">
       <div className="flex items-center justify-between">
         <h2 className="text-2xl font-bold">Reporte Trimestral - Xerox C7125</h2>
-        <span className="text-sm text-gray-500">Marzo - Mayo 2025</span>
+        <span className="text-sm text-gray-500">Marzo - Mayo 2024</span>
       </div>
 
       <Card>

@@ -3,21 +3,12 @@ import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { getMensualTotals } from "@/data/printerData";
 
-interface MensualTotal {
-  mes: string;
-  total: number;
-  copias: number;
-  impresiones: number;
-  fullColor: number;
-  negro: number;
-}
-
 export const ComparativeReport = () => {
-  const konicaData = getMensualTotals("Konica C454") as MensualTotal[];
-  const xeroxData = getMensualTotals("Xerox C7125") as MensualTotal[];
+  const konicaData = getMensualTotals("Konica C454");
+  const xeroxData = getMensualTotals("Xerox C7125");
 
-  const konicaTotal = konicaData.reduce((sum: number, mes: MensualTotal) => sum + mes.total, 0);
-  const xeroxTotal = xeroxData.reduce((sum: number, mes: MensualTotal) => sum + mes.total, 0);
+  const konicaTotal = konicaData.reduce((sum: number, mes: any) => sum + mes.total, 0);
+  const xeroxTotal = xeroxData.reduce((sum: number, mes: any) => sum + mes.total, 0);
   const grandTotal = konicaTotal + xeroxTotal;
 
   return (
@@ -63,7 +54,7 @@ export const ComparativeReport = () => {
                 Impresiones totales
               </div>
               <div className="text-sm text-gray-600">
-                Período: Marzo - Mayo 2025
+                Período: Marzo - Mayo 2024
               </div>
             </div>
           </CardContent>
@@ -110,8 +101,8 @@ export const ComparativeReport = () => {
                 </thead>
                 <tbody>
                   {['MARZO', 'ABRIL', 'MAYO'].map((mes) => {
-                    const konicaMes = konicaData.find((k: MensualTotal) => k.mes === mes);
-                    const xeroxMes = xeroxData.find((x: MensualTotal) => x.mes === mes);
+                    const konicaMes = konicaData.find((k: any) => k.mes === mes);
+                    const xeroxMes = xeroxData.find((x: any) => x.mes === mes);
                     const konicaTotal = konicaMes ? konicaMes.total : 0;
                     const xeroxTotal = xeroxMes ? xeroxMes.total : 0;
                     const diferencia = konicaTotal - xeroxTotal;

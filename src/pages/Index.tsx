@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import { SidebarProvider } from "@/components/ui/sidebar";
 import { AppSidebar } from "@/components/AppSidebar";
 import { SidebarTrigger } from "@/components/ui/sidebar";
-import { CompanyLogo } from "@/components/CompanyLogo";
 import { TrimestralKonicaReport } from "@/components/reports/TrimestralKonicaReport";
 import { TrimestralXeroxReport } from "@/components/reports/TrimestralXeroxReport";
 import { MensualKonicaReport } from "@/components/reports/MensualKonicaReport";
@@ -53,7 +52,6 @@ const Index = () => {
           <div className="p-6">
             <div className="flex items-center gap-4 mb-6">
               <SidebarTrigger />
-              <CompanyLogo />
               <h1 className="text-3xl font-bold text-gray-900">Dashboard de Impresoras</h1>
             </div>
             {renderContent()}
