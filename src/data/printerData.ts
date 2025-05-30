@@ -11,7 +11,7 @@ const loadData = async () => {
 // Inicializar datos
 loadData();
 
-export { PrinterData };
+export type { PrinterData };
 
 export const getKonicaData = () => printerData.filter(item => item.impresora === "Konica C454");
 export const getXeroxData = () => printerData.filter(item => item.impresora === "Xerox C7125");
