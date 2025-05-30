@@ -108,7 +108,7 @@ export const DashboardOverview = () => {
             <div className="space-y-3">
               <div className="flex justify-between">
                 <span className="text-sm font-medium">Período de datos:</span>
-                <span className="text-sm">Marzo - Mayo 2024</span>
+                <span className="text-sm">Marzo - Mayo 2025</span>
               </div>
               <div className="flex justify-between">
                 <span className="text-sm font-medium">Total usuarios únicos:</span>
