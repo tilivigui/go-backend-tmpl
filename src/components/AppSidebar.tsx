@@ -11,10 +11,10 @@ import {
   SidebarHeader,
 } from "@/components/ui/sidebar";
 import { 
-  chart-bar,
-  chart-pie,
-  chart-line,
-  menu
+  BarChart3,
+  PieChart,
+  LineChart,
+  Menu
 } from "lucide-react";
 
 interface AppSidebarProps {
@@ -26,52 +26,52 @@ const menuItems = [
   {
     id: 'overview',
     title: "Resumen General",
-    icon: chart-bar,
+    icon: BarChart3,
   },
   {
     id: 'trimestral-konica',
     title: "Trimestral Konica C454",
-    icon: chart-bar,
+    icon: BarChart3,
   },
   {
     id: 'trimestral-xerox',
     title: "Trimestral Xerox C7125",
-    icon: chart-bar,
+    icon: BarChart3,
   },
   {
     id: 'mensual-konica',
     title: "Mensual Konica C454",
-    icon: chart-bar,
+    icon: BarChart3,
   },
   {
     id: 'mensual-xerox',
     title: "Mensual Xerox C7125",
-    icon: chart-bar,
+    icon: BarChart3,
   },
   {
     id: 'top-konica',
     title: "Top 5 Usuarios Konica",
-    icon: chart-pie,
+    icon: PieChart,
   },
   {
     id: 'top-xerox',
     title: "Top 3 Usuarios Xerox",
-    icon: chart-pie,
+    icon: PieChart,
   },
   {
     id: 'comparative',
     title: "Comparativo Impresoras",
-    icon: chart-bar,
+    icon: BarChart3,
   },
   {
     id: 'chart-konica',
     title: "Gráfica Trimestral Konica",
-    icon: chart-line,
+    icon: LineChart,
   },
   {
     id: 'chart-xerox',
     title: "Gráfica Trimestral Xerox",
-    icon: chart-line,
+    icon: LineChart,
   },
 ];
 
