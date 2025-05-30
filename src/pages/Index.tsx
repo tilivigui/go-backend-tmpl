@@ -52,7 +52,7 @@ const Index = () => {
           <div className="p-6">
             <div className="flex items-center gap-4 mb-6">
               <SidebarTrigger />
-              <img src="livigui.png" alt="Logo de la empresa" class="h-8 w-auto"><h1 className="text-3xl font-bold text-gray-900">Dashboard de Impresoras</h1>
+              <h1 className="text-3xl font-bold text-gray-900">Dashboard de Impresoras LIVIGUI</h1>
             </div>
             {renderContent()}
           </div>
