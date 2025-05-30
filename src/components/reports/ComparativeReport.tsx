@@ -63,7 +63,7 @@ export const ComparativeReport = () => {
                 Impresiones totales
               </div>
               <div className="text-sm text-gray-600">
-                Período: Marzo - Mayo 2024
+                Período: Marzo - Mayo 2025
               </div>
             </div>
           </CardContent>
