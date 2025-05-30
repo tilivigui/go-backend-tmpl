@@ -120,7 +120,7 @@ export const DashboardOverview = () => {
               </div>
               <div className="flex justify-between">
                 <span className="text-sm font-medium">Última actualización:</span>
-                <span className="text-sm">Mayo 2024</span>
+                <span className="text-sm">Mayo 2025</span>
               </div>
             </div>
           </CardContent>
