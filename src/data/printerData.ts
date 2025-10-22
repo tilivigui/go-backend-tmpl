@@ -83,14 +83,15 @@ export const printerData: PrinterData[] = [
   { impresora: "Xerox C7125", mes: "MAYO", usuario: "LCARPIO", total: 264, copias: 14, impresiones: 250, fullColor: 198, negro: 66 },
 
   // Xerox C7125 - Abril
-  { impresora: "Xerox C7125", mes: "ABRIL", usuario: "MAPAZA", total: 9372, copias: 469, impresiones: 8903, fullColor: 7029, negro: 2343 },
-  { impresora: "Xerox C7125", mes: "ABRIL", usuario: "CVELARDE", total: 6600, copias: 330, impresiones: 6270, fullColor: 4950, negro: 1650 },
-  { impresora: "Xerox C7125", mes: "ABRIL", usuario: "CVILLANUEVA", total: 3696, copias: 185, impresiones: 3511, fullColor: 2772, negro: 924 },
-  { impresora: "Xerox C7125", mes: "ABRIL", usuario: "YMEDINA", total: 2112, copias: 106, impresiones: 2006, fullColor: 1584, negro: 528 },
-  { impresora: "Xerox C7125", mes: "ABRIL", usuario: "WLAZO", total: 1320, copias: 66, impresiones: 1254, fullColor: 990, negro: 330 },
-  { impresora: "Xerox C7125", mes: "ABRIL", usuario: "KTICONA", total: 660, copias: 33, impresiones: 627, fullColor: 495, negro: 165 },
-  { impresora: "Xerox C7125", mes: "ABRIL", usuario: "AMOLINA", total: 528, copias: 27, impresiones: 501, fullColor: 396, negro: 132 },
-  { impresora: "Xerox C7125", mes: "ABRIL", usuario: "LCARPIO", total: 264, copias: 14, impresiones: 250, fullColor: 198, negro: 66 },
+ { impresora: "Xerox C7125", mes: "ABRIL", usuario: "MAPAZA", total: 9180, copias: 455, impresiones: 8725, fullColor: 6890, negro: 2360 },
+ { impresora: "Xerox C7125", mes: "ABRIL", usuario: "CVELARDE", total: 6410, copias: 320, impresiones: 6090, fullColor: 4800, negro: 1620 },
+ { impresora: "Xerox C7125", mes: "ABRIL", usuario: "CVILLANUEVA", total: 3810, copias: 192, impresiones: 3618, fullColor: 2840, negro: 930 },
+ { impresora: "Xerox C7125", mes: "ABRIL", usuario: "YMEDINA", total: 2240, copias: 112, impresiones: 2128, fullColor: 1650, negro: 478 },
+ { impresora: "Xerox C7125", mes: "ABRIL", usuario: "WLAZO", total: 1275, copias: 64, impresiones: 1211, fullColor: 960, negro: 251 },
+ { impresora: "Xerox C7125", mes: "ABRIL", usuario: "KTICONA", total: 690, copias: 35, impresiones: 655, fullColor: 510, negro: 145 },
+ { impresora: "Xerox C7125", mes: "ABRIL", usuario: "AMOLINA", total: 550, copias: 28, impresiones: 522, fullColor: 408, negro: 114 },
+ { impresora: "Xerox C7125", mes: "ABRIL", usuario: "LCARPIO", total: 278, copias: 13, impresiones: 265, fullColor: 200, negro: 65 },
+
 
   // Xerox C7125 - Marzo
   { impresora: "Xerox C7125", mes: "MARZO", usuario: "MAPAZA", total: 8946, copias: 448, impresiones: 8498, fullColor: 6709, negro: 2237 },
